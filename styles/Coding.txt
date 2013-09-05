@@ -1,0 +1,148 @@
+Class 2
+
+What is html?
+
+- language of content/organisation
+- nothing to do with looks
+- clean/structured
+
+terminology
+
+tag: <oewbgoirebgoi>
+pair → element e.g <eoifeiorbgoir> </eoifeiorbgoir>
+	attribute → inside element → defines something about element e.g id=”ewonfoirenfio”
+
+page → document
+
+HOMEWORK
+
+profile
+make a webpage
+
+
+Class 3
+
+HOW TO LINK HTML AND CSS
+
+In html file:
+
+<head>
+	<link rel=”stylesheet” href=”stylesheet”>
+</head>
+
+or to specify the type of file:
+
+<head>
+	<link rel=”stylesheet” type=”text/css” href=”stylesheet”>
+</head>
+
+
+e.g 
+
+<head>
+	<link rel=”stylesheet” type=”text/css” href=”style/style.css”>
+</head>
+
+
+CSS
+Cascading → hence: last thing it sees (within a selector) → what will take effect in the browser
+
+
+Selector THE IRON CLAW TO FIND THINGS
+
+e.g 
+.class → searches by html attribute “class” 
+<div [class=”cake”]></div> 			within [ ] is the attribute
+
+<div id=”cake”></div> 
+NOTE1 →  id must be unique 
+NOTE2 →  id will take preference over class
+
+id like a person in the room
+class like a gender
+
+p, div
+#id
+
+e.g
+
+in CSS
+.class div selection #id
+
+in html finds
+
+<div class=”class”>
+	<div>
+		<selection>
+			<p id=”id”></p>
+		</selection>
+	</div>
+</div>
+
+
+HOW TO WRITE CSS
+
+
+In separate file
+
+Structure like html for convenience
+
+colour
+
+body{
+background-color: red; 
+
+	}
+
+property 
+values
+
+
+
+USE HEX
+
+→ dont use “red” or “blue” etc
+→ 6 digits
+
+0 is lowest number
+1
+2
+3
+…
+f is highest number
+
+000000 = black
+ffffff = white
+pairs → i.e “ f f f f f f “
+				r  g  b
+therefore → “ff0000” is red
+	    → “00ff00” is blue
+	    → “0000ff” is green
+
+
+other stuff
+
+body{	
+	padding: 20px;
+	margin: 30px;
+	line-height: 32px;
+	font-size: 24px;
+	background-color: #09ff00;
+	font-family: “Arial”;
+	}
+
+Class 3
+
+BOX MODEL
+
+--> block level element
+
+big
+e.g div, element
+
+--> inline element
+small
+resize themselves depending on content is inside it
+	e.g paragraph we resize itself depending on amount of words
+e.g p, em
+
